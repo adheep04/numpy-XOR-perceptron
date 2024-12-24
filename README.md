@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/adeda2ec-8db0-4dc6-a33c-b74de5bdac7f)
+
+
+
 before manual gradient descent:
 
 ![image](https://github.com/user-attachments/assets/590e11be-331c-43c9-aa23-e4ef236e9c80)

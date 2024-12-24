@@ -24,7 +24,8 @@ after:
 # features
 - custom sigmoid, linear, and loss classes in numpy
 - displays final predictions on all 4 XOR classes after training
-- displays final parameter values after training (only 9 parameters) 
+- displays final parameter values after training (only 9 parameters)
+- displays final loss plot
 
 # how to use
 - make sure numpy is installed

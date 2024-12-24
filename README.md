@@ -22,7 +22,7 @@ after:
 
 
 # features
-- custom sigmoid, linear, and loss classes in numpy
+- custom sigmoid, feed-forward, and loss classes in numpy
 - handwritten gradient calculation and backpropagation logic
 - modular design
 - displays final predictions on all 4 XOR classes after training

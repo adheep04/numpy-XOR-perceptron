@@ -8,12 +8,11 @@ classifies the following boolean expressions into either (1) -> XOR expression, 
 3) (0, 1) -> 1
 4) (1, 1) -> 1
 
-this is a linearly inseperable problem (if you plot the points above on a 2d graph and try to draw a line seperating the classes you will know what I mean) which makes a hidden layer and non-linear activation functions (like sigmoid) necessary for a model to learn. The source code only uses numpy and matplotlib for the graph you see above. All backpropagation logic written from scratch. 
+this is a linearly inseperable problem (if you plot the points above on a 2d graph and try to draw a line seperating the classes you will know what I mean) which makes a hidden layer and non-linear activation functions (like sigmoid) necessary for a model to learn class distinctions. The source code only uses numpy and matplotlib for the graph you see above. All backpropagation logic written from scratch. 
 
 before manual gradient descent:
 
 ![image](https://github.com/user-attachments/assets/590e11be-331c-43c9-aa23-e4ef236e9c80)
-
 
 
 after:

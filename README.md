@@ -20,6 +20,12 @@ after:
 
 ![image](https://github.com/user-attachments/assets/488211cb-f3bb-4bb5-8619-87670aa3d080)
 
+
+# features
+- custom sigmoid, linear, and loss classes in numpy
+- displays final predictions on all 4 XOR classes after training
+- displays final parameter values after training (only 9 parameters) 
+
 # how to use
 - make sure numpy is installed
 - run model.py

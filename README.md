@@ -1,4 +1,4 @@
-# exlusive-OR (XOR) classifier neural network using numpy
+# exclusive-OR (XOR) classifier neural network using numpy
 
 ## table
 - [about](#about)

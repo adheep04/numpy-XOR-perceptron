@@ -23,3 +23,4 @@ after:
 # how to use
 - make sure numpy is installed
 - run model.py
+- training may get stuck at local min, just run the code a few times

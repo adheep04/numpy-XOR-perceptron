@@ -1,4 +1,4 @@
-# XOR classifier from scratch
+# XOR classifier neural network using numpy
 
 ![image](https://github.com/user-attachments/assets/adeda2ec-8db0-4dc6-a33c-b74de5bdac7f)
 

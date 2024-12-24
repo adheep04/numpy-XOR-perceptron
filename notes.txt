@@ -42,10 +42,10 @@ b = [b0, b1, b2, b3] (4,)
 n = scalar output
 
 - Wx + b = n
-der w respect to x
+der n with respect to x
 - d (n) / dx
 - = W
-der w respect to W
+der n with respect to W
 - d (n) / dW
 = [
     [d(n)/w0],
@@ -53,4 +53,6 @@ der w respect to W
     [d(n)/w2],
     [d(n)/w3],
 ]
+der n with respect to b
+
 

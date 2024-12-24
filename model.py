@@ -3,11 +3,6 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-'''
-just click run!
-
-'''
-
 class NeuralLayer():
     def __init__(self, in_size, out_size):
         # attribute to hold the last passed in input for backprop purposes

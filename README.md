@@ -1,44 +1,44 @@
-# exclusive-OR (XOR) classifier neural network using numpy
+# xor neural network classifier from scratch
+a numpy implementation of a neural network solving the xor problem from scratch.
 
-## contents
-- [about](#about)
-- [features](#features)
-- [results](#results)
-- [how-to-use](#how-to-use)
+## overview
+this project implements a neural network to solve the xor classification problem without using any deep learning frameworks. the xor problem is non-linearly separable, requiring a hidden layer and non-linear activation functions to solve - making it a great example for understanding why we need multi-layer neural networks.
 
- # results
+## implementation details
+- built using only numpy for computations and matplotlib for visualization
+- custom implementation of:
+  - feed-forward logic
+  - backpropagation algorithm
+  - sigmoid activation function
+  - loss calculation
+- total trainable parameters: 9
+- modular design for clear separation of components
 
-training plot:
-![image](https://github.com/user-attachments/assets/adeda2ec-8db0-4dc6-a33c-b74de5bdac7f)
+## results
+training progression:
+![training plot](https://github.com/user-attachments/assets/adeda2ec-8db0-4dc6-a33c-b74de5bdac7f)
 
-XOR predictions before manual backpropagation
+initial predictions:
+![initial state](https://github.com/user-attachments/assets/590e11be-331c-43c9-aa23-e4ef236e9c80)
 
-![image](https://github.com/user-attachments/assets/590e11be-331c-43c9-aa23-e4ef236e9c80)
+final predictions:
+![final state](https://github.com/user-attachments/assets/488211cb-f3bb-4bb5-8619-87670aa3d080)
 
+## getting started
+requirements:
+- numpy
+- matplotlib
 
-predictions after:
+usage:
+```bash
+python model.py
+```
+note: due to random weight initialization, you might need to run the model multiple times to avoid local minima.
 
-![image](https://github.com/user-attachments/assets/488211cb-f3bb-4bb5-8619-87670aa3d080)
-
-# about
-classifies the following boolean expressions into either (1) -> XOR expression, (0) -> NOT XOR expression:
-1) (0, 0) -> 0
-2) (1, 0) -> 1
-3) (0, 1) -> 1
-4) (1, 1) -> 1
-
-this is a linearly inseperable problem (if you plot the points above on a 2d graph and try to draw a line seperating the classes you will know what I mean) which makes a hidden layer and non-linear activation functions (like sigmoid) necessary for a model to learn class distinctions. The source code only uses numpy and matplotlib for the graph you see above. All backpropagation logic written from scratch. 
-
-
-# features
-- custom sigmoid, feed-forward, and loss classes witten in numpy
-- from-scratch gradient calculation and backpropagation logic
-- modular design
-- displays final predictions for all 4 XOR samples after training
-- displays final parameter values after training (only 9 parameters)
-- displays final loss plot
-
-# how-to-use
-- make sure numpy is installed
-- run model.py
-- training may get stuck at local min, just run the code a few times
+the model classifies the following xor truth table:
+```
+(0,0) -> 0
+(1,0) -> 1
+(0,1) -> 1
+(1,1) -> 0
+```

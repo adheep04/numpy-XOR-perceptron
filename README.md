@@ -1,6 +1,6 @@
 # exclusive-OR (XOR) classifier neural network using numpy
 
-## table
+## contents
 - [about](#about)
 - [features](#features)
 - [results](#results)

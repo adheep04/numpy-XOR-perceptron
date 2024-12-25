@@ -16,12 +16,15 @@ this project implements a neural network to solve the xor classification problem
 
 ## results
 training progression:
+
 ![training plot](https://github.com/user-attachments/assets/adeda2ec-8db0-4dc6-a33c-b74de5bdac7f)
 
 initial predictions:
+
 ![initial state](https://github.com/user-attachments/assets/590e11be-331c-43c9-aa23-e4ef236e9c80)
 
 final predictions:
+
 ![final state](https://github.com/user-attachments/assets/488211cb-f3bb-4bb5-8619-87670aa3d080)
 
 ## getting started

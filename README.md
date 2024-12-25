@@ -1,4 +1,4 @@
-# xor neural network classifier from scratch
+# XOR neural network classifier from scratch
 a numpy implementation of a neural network solving the xor problem from scratch.
 
 ## overview

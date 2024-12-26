@@ -27,7 +27,7 @@ final predictions:
 
 ![final state](https://github.com/user-attachments/assets/488211cb-f3bb-4bb5-8619-87670aa3d080)
 
-## getting started
+## how to use
 requirements:
 - numpy
 - matplotlib

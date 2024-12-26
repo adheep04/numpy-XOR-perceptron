@@ -34,7 +34,7 @@ requirements:
 
 usage:
 ```bash
-python model.py
+open model.py and run
 ```
 note: due to random weight initialization, you might need to run the model multiple times to avoid local minima.
 

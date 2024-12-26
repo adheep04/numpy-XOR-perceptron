@@ -1,5 +1,5 @@
 # XOR neural network classifier from scratch
-a numpy implementation of a neural network solving the xor problem.
+a numpy implementation of a simple neural network solving the xor problem.
 
 ## overview
 this project implements a neural network to solve the xor classification problem without using any deep learning frameworks like pytorch or tensorflow. the xor problem is non-linearly separable, requiring a hidden layer and non-linear activation functions to solve

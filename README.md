@@ -1,8 +1,8 @@
-# XOR neural network classifier from scratch
-a numpy implementation of a simple neural network solving the xor problem with highly documented code
+# simple 2-layered xor perceptron
+a numpy implementation of a simple neural network solving the xor problem with documented code
 
 ## overview
-this project implements a neural network to solve the xor classification problem without using any deep learning frameworks like pytorch or tensorflow. xor refers to an exclusive-or boolean expression, where 1 of 2 cases are true but not both and not neither. the xor problem is non-linearly separable (which becomes more clear if you plot the xor samples shown below), requiring a hidden layer and non-linear activation functions to solve
+this small neural net is implemented without using any deep learning frameworks like pytorch or tensorflow to classify the 4 xor samples. xor refers to an exclusive-or boolean expression where *this* OR *that* is true but *this* and *that* is not. If we take true as 1 and false as 0, then we can generate samples and labels. the xor problem is non-linearly separable (which becomes more clear if you plot the xor samples shown below), requiring a hidden layer and non-linear activation functions to solve
 
 ## implementation details
 - built using only numpy for computations and matplotlib for visualization
